@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <title>Cloud Fox Studio</title>
+  <meta name="description" content="A cozy, handmade portfolio for an illustrator/animator.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Patrick+Hand&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="selection:bg-yellow-200 selection:text-yellow-900">
+
+  <div class="fixed left-6 top-0 bottom-0 w-px border-l border-dashed border-gray-300 hidden md:block z-0 pointer-events-none">
+    <div id="scroll-bead" class="absolute left-[-4px] top-0 w-2 h-2 rounded-full bg-red-400 shadow-sm transition-transform duration-75 ease-out"></div>
+  </div>
+
+  <main class="max-w-xl mx-auto px-6 py-12 md:py-20 relative z-10 space-y-24">
+
+    <header class="text-center relative">
+      <div class="inline-block relative">
+        <h1 class="font-hand text-6xl md:text-7xl font-bold text-ink-primary rotate-[-2deg] relative z-10">
+          Cloud Fox
+        </h1>
+        <svg class="absolute -bottom-2 -left-4 w-[120%] h-8 text-yellow-200 -z-0 opacity-80" viewBox="0 0 200 20" fill="currentColor">
+          <path d="M0,10 Q50,0 100,10 T200,10" stroke="currentColor" stroke-width="12" fill="none" stroke-linecap="round"/>
+        </svg>
+        <div class="absolute -top-6 -right-8 animate-float">
+          <div class="text-2xl rotate-12">🦊</div>
+        </div>
+      </div>
+      <p class="mt-4 font-marker text-xl text-gray-500 rotate-1">
+        Illustrator • Animator • Coffee Drinker
+      </p>
+      
+      <div class="mt-6 inline-flex items-center gap-2 px-3 py-1 bg-white border border-gray-200 rounded-full shadow-sm rotate-[-1deg] hover:rotate-0 transition-transform cursor-default">
+        <span class="relative flex h-3 w-3">
+          <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
+          <span class="relative inline-flex rounded-full h-3 w-3 bg-green-500"></span>
+        </span>
+        <span class="font-mono text-xs text-gray-600 tracking-wide uppercase">Open for Commissions</span>
+      </div>
+    </header>
+
+    <section class="reveal-item">
+      <div class="paper-card rough-edge bg-[#fffdf5] p-6 md:p-8 rotate-1 mx-auto max-w-sm shadow-md text-center transform origin-top">
+        <div class="tape top-[-10px] left-1/2 -translate-x-1/2 -rotate-1 bg-red-100/80"></div>
+        <h2 class="font-hand text-3xl mb-4 text-gray-800">Hello!</h2>
+        <p class="font-marker text-lg leading-relaxed text-gray-600">
+          Welcome to my digital sketchbook. I create soft worlds for tired brains. Everything here is made with <span class="text-red-400">❤</span> and too much coffee.
+        </p>
+        <div class="mt-6 flex justify-center gap-4">
+          <div class="w-2 h-2 rounded-full bg-gray-300"></div>
+          <div class="w-2 h-2 rounded-full bg-gray-300"></div>
+          <div class="w-2 h-2 rounded-full bg-gray-300"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="work" class="space-y-20">
+      <div class="mb-12 reveal-item relative inline-block">
+        <h2 class="font-hand text-4xl font-bold relative z-10">Selected Works</h2>
+        <svg class="absolute -bottom-2 left-0 w-full h-3 text-red-400 -z-0 draw-line" viewBox="0 0 200 9" fill="none" preserveAspectRatio="none">
+          <path d="M2.00025 7.00001C35.9189 4.38076 96.8458 1.83852 198.003 3.50001" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+        </svg>
+      </div>
+
+      <article class="reveal-item group">
+        <div class="relative">
+          <div class="paper-card polaroid rotate-[-2deg] mx-auto sm:mr-auto sm:ml-0 max-w-sm">
+             <div class="tape -top-3 left-10 -rotate-3 bg-red-100/80"></div>
+             <div class="polaroid-img">
+               <img src="images/1.jpg" alt="Project 1">
+             </div>
+             <div class="pt-4 flex justify-between items-baseline">
+               <h3 class="font-hand text-2xl font-bold">Project Name 1</h3>
+               <span class="font-mono text-xs text-gray-400">2026</span>
+             </div>
+             <p class="font-marker text-gray-500 mt-2 text-sm">Short description of the project goes here.</p>
+          </div>
+        </div>
+      </article>
+
+      <article class="reveal-item">
+        <div class="relative flex justify-end">
+          <div class="paper-card polaroid rotate-2 max-w-sm">
+             <div class="tape -top-3 right-10 rotate-2 bg-blue-100/80"></div>
+             <div class="polaroid-img">
+                <img src="images/2.jpg" alt="Project 2">
+             </div>
+             <div class="pt-4 flex justify-between items-baseline">
+               <h3 class="font-hand text-2xl font-bold">Project Name 2</h3>
+               <span class="font-mono text-xs text-gray-400">2026</span>
+             </div>
+             <p class="font-marker text-gray-500 mt-2 text-sm">Short description of the project goes here.</p>
+          </div>
+        </div>
+      </article>
+
+      <article class="reveal-item">
+        <div class="relative">
+          <div class="paper-card polaroid rotate-[-1deg] mx-auto max-w-sm">
+             <div class="tape -top-3 left-1/2 -translate-x-1/2 rotate-1 bg-yellow-100/80 w-16"></div>
+             <div class="polaroid-img">
+                <img src="images/3.jpg" alt="Project 3">
+             </div>
+             <div class="pt-4 flex justify-between items-baseline">
+               <h3 class="font-hand text-2xl font-bold">Project Name 3</h3>
+               <span class="font-mono text-xs text-gray-400">2026</span>
+             </div>
+             <p class="font-marker text-gray-500 mt-2 text-sm">Short description of the project goes here.</p>
+          </div>
+        </div>
+      </article>
+
+      <article class="reveal-item">
+        <div class="relative">
+           <div class="paper-card polaroid rotate-3 mx-auto sm:ml-auto sm:mr-0 max-w-sm">
+             <div class="tape -top-3 right-6 -rotate-12 bg-green-100/80"></div>
+             <div class="polaroid-img">
+                <img src="images/4.jpg" alt="Project 4">
+             </div>
+             <div class="pt-4 flex justify-between items-baseline">
+               <h3 class="font-hand text-2xl font-bold">Project Name 4</h3>
+               <span class="font-mono text-xs text-gray-400">2026</span>
+             </div>
+             <p class="font-marker text-gray-500 mt-2 text-sm">Short description of the project goes here.</p>
+          </div>
+        </div>
+      </article>
+
+      <article class="reveal-item group">
+        <div class="relative">
+          <div class="paper-card polaroid rotate-[-2deg] mx-auto sm:mr-auto sm:ml-0 max-w-sm">
+             <div class="tape -top-3 left-10 -rotate-3 bg-red-100/80"></div>
+             <div class="polaroid-img">
+                <img src="images/5.jpg" alt="Project 5">
+             </div>
+             <div class="pt-4 flex justify-between items-baseline">
+               <h3 class="font-hand text-2xl font-bold">Project Name 5</h3>
+               <span class="font-mono text-xs text-gray-400">2026</span>
+             </div>
+             <p class="font-marker text-gray-500 mt-2 text-sm">Short description of the project goes here.</p>
+          </div>
+        </div>
+      </article>
+
+      <article class="reveal-item">
+        <div class="relative">
+          <div class="paper-card polaroid rotate-1 mx-auto max-w-sm">
+             <div class="tape -top-3 left-1/2 -translate-x-1/2 -rotate-2 bg-orange-100/80"></div>
+             <div class="polaroid-img">
+                <img src="images/6.jpg" alt="Project 6">
+             </div>
+             <div class="pt-4 flex justify-between items-baseline">
+               <h3 class="font-hand text-2xl font-bold">Project Name 6</h3>
+               <span class="font-mono text-xs text-gray-400">2026</span>
+             </div>
+             <p class="font-marker text-gray-500 mt-2 text-sm">Short description of the project goes here.</p>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <section class="space-y-8 pt-12">
+      <div class="mb-8 reveal-item relative inline-block">
+        <h2 class="font-hand text-4xl font-bold text-gray-700 relative z-10">Tiny Thoughts</h2>
+        <svg class="absolute -bottom-2 left-0 w-full h-3 text-yellow-400 -z-0 draw-line" viewBox="0 0 200 9" fill="none" preserveAspectRatio="none">
+          <path d="M2.00025 7.00001C35.9189 4.38076 96.8458 1.83852 198.003 3.50001" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+        </svg>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div class="reveal-item paper-card rough-edge bg-yellow-50 p-5 rotate-1 shadow-sm">
+           <div class="tape -top-2 left-1/2 -translate-x-1/2 -rotate-1 bg-yellow-200/50"></div>
+           <span class="text-xs font-mono text-gray-400 uppercase tracking-widest">Today</span>
+           <p class="font-marker text-lg text-gray-700 mt-2">Trying to capture the smell of rain in my next sketch. Is that even possible?</p>
+        </div>
+
+        <div class="reveal-item paper-card rough-edge bg-white p-5 -rotate-1 shadow-sm border-l-4 border-red-200">
+           <span class="text-xs font-mono text-gray-400 uppercase tracking-widest">Note to self</span>
+           <ul class="font-marker text-lg text-gray-700 mt-2 space-y-1 list-disc list-inside">
+             <li>Buy more ink</li>
+             <li>Feed the cat</li>
+             <li>Touch grass</li>
+           </ul>
+        </div>
+        
+        <div class="reveal-item paper-card rough-edge bg-blue-50 p-5 rotate-2 shadow-sm md:col-span-2 mx-auto max-w-xs md:max-w-none">
+           <div class="tape -top-2 right-4 rotate-45 bg-blue-200/50 w-12"></div>
+           <p class="font-hand text-xl text-center text-blue-800">"Creativity is allowing yourself to make mistakes. Art is knowing which ones to keep."</p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="pt-20 pb-12 reveal-item">
+      <div class="paper-card relative bg-[#f8f5f0] p-8 max-w-md mx-auto shadow-float rough-edge rotate-1">
+        <div class="tape -top-3 left-1/2 -translate-x-1/2 -rotate-1 bg-yellow-200/80"></div>
+        
+        <h2 class="font-hand text-3xl font-bold mb-6 text-center">Let's Create Together</h2>
+
+        <form id="contact-form" action="https://formspree.io/f/meekgggg" method="POST" class="space-y-4 font-marker text-lg relative">
+          <div>
+            <label for="email" class="block text-sm font-mono text-gray-400 mb-1">Your Email</label>
+            <input type="email" name="email" id="email" required 
+              class="w-full bg-transparent border-b-2 border-dashed border-gray-300 focus:border-red-300 outline-none py-1 transition-colors placeholder-gray-300"
+              placeholder="email@example.com">
+          </div>
+
+          <div>
+            <label for="message" class="block text-sm font-mono text-gray-400 mb-1">Message</label>
+            <textarea name="message" id="message" required rows="3"
+              class="w-full bg-transparent border-b-2 border-dashed border-gray-300 focus:border-red-300 outline-none py-1 transition-colors resize-none placeholder-gray-300"
+              placeholder="Hi, let's work together..."></textarea>
+          </div>
+
+          <div class="text-center mt-6">
+            <button type="submit" id="form-btn" class="font-hand font-bold text-xl px-6 py-2 bg-yellow-200 hover:bg-yellow-300 text-yellow-800 rounded-full shadow-sm transform hover:-rotate-2 transition-all">
+              Send Letter
+            </button>
+          </div>
+
+          <div id="form-status" class="hidden absolute inset-0 bg-[#f8f5f0] flex flex-col items-center justify-center text-center z-10">
+            <p class="font-hand text-3xl text-green-600 mb-2">Message Sent!</p>
+            <p class="text-gray-500 text-sm">I'll get back to you soon.</p>
+          </div>
+        </form>
+
+        <div class="flex justify-center gap-6 mt-8 font-marker text-xl border-t border-dashed border-gray-200 pt-6">
+           <a href="https://www.tiktok.com/@cloud.foxsd?_r=1&_t=ZS-93SIa2nNRdR" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-gray-700 transition-transform hover:-translate-y-1">TikTok</a>
+           <a href="https://t.me/cloudfoxstudio" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-gray-700 transition-transform hover:-translate-y-1">Telegram</a>
+        </div>
+
+        <div class="mt-6 text-center text-xs font-mono text-gray-400">
+          &copy; 2026 Cloud Fox Studio.
+        </div>
+      </div>
+    </footer>
+
+    <button id="back-to-top" class="w-12 h-12 bg-yellow-300 rounded-full flex items-center justify-center border-2 border-white shadow-md text-yellow-800 font-hand font-bold text-lg" aria-label="Back to top">
+      Top
+    </button>
+
+  </main>
+
+  <div class="custom-cursor"></div>
+  <script src="script.js"></script>
+</body>
+</html>
